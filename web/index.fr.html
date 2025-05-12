@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NS96967X");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JMP Security</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="alternate" hreflang="en" href="index.en.html" />
+    <link rel="alternate" hreflang="es" href="index.es.html" />
+    <link rel="alternate" hreflang="fr" href="index.fr.html" />
+    <link rel="alternate" hreflang="cat" href="index.cat.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e3939c8b83.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const sentences = [
+        "Bienvenue chez JMP Security.",
+        "Nous sommes spécialisés dans les solutions de cybersécurité.",
+        "Votre sécurité est notre priorité.",
+      ];
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NS96967X"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+      <div class="logo-container">
+        <a href="mailto:hello@jmpsec.com">
+          <img
+            src="/img/logo.png"
+            alt="JMP Security <hello@jmpsec.com>"
+            class="logo-jmp"
+          />
+        </a>
+      </div>
+    </header>
+    <div class="language-dropdown roboto">
+      <button class="dropdown-button">🌐 Langue</button>
+      <div class="dropdown-content">
+        <a href="index.en.html"><span>🇺🇸 EN</span></a>
+        <a href="index.es.html"><span>🇪🇸 ES</span></a>
+        <a href="index.fr.html"><span>🇫🇷 FR</span></a>
+        <a href="index.cat.html"><span>🇦🇩 CAT</span></a>
+      </div>
+    </div>
+    <div class="hero roboto">
+      <div class="hero-content">
+        <h1 id="typewriter"></h1>
+        <p>Des solutions innovantes pour vos besoins de cybersécurité.</p>
+        <a href="#services" class="cta-button lato">En Savoir Plus</a>
+      </div>
+    </div>
+    <section id="services" class="services lato">
+      <h2>Nos Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fa-solid fa-microchip"></i>
+          <h3>Développement Logiciel Sécurisé</h3>
+          <p>Construir des applications robustes et sécurisées.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-network-wired"></i>
+          <h3>Infrastructure Sécurisée</h3>
+          <p>Concevoir et maintenir des systèmes et des réseaux sécurisés.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-key"></i>
+          <h3>Ingénierie de la Sécurité</h3>
+          <p>
+            Développer et mettre en œuvre des mesures de sécurité avancées pour
+            protéger votre organisation.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>Sécurité des Enfants</h3>
+          <p>
+            Fournir des conseils d'experts pour protéger les enfants en ligne et
+            assurer leur sécurité numérique.
+          </p>
+        </div>
+      </div>
+      <div class="service-card">
+        <i class="fa-regular fa-envelope"></i>
+        <h3>Contactez-Nous</h3>
+        <p>
+          Utilisez notre
+          <a href="https://forms.gle/ezGfkRgMfNsonfd19" target="_blank"
+            >formulaire</a
+          >
+          ou envoyez-nous un <a href="mailto:hello@jmpsec.com">e-mail.</a>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer lato">
+      <p>
+        © <span id="current-year"></span> JMP Security. Tous droits réservés.
+        Depuis l'Andorre avec ❤️
+      </p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
