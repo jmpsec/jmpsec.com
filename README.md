@@ -7,7 +7,7 @@
   </p>
 </p>
 
-Static website for [JMP SEC](https://jmpsec.com/) using [Hugo](https://gohugo.io/).
+Static website for [JMP SEC](https://jmpsec.com/).
 
 ## Serve Locally
 
