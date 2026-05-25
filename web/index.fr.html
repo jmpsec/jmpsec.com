@@ -14,7 +14,11 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JMP Security</title>
+    <meta
+      name="description"
+      content="JMP Sec fournit de l'ingénierie de sécurité, de la sécurité applicative, de la sécurité cloud et infrastructure, de la préparation aux incidents et de la sécurité en ligne des enfants pour les équipes techniques."
+    />
+    <title>JMP Sec | Services d'Ingénierie de Sécurité</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="/img/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
@@ -24,85 +28,220 @@
     <link rel="alternate" hreflang="en" href="index.en.html" />
     <link rel="alternate" hreflang="es" href="index.es.html" />
     <link rel="alternate" hreflang="fr" href="index.fr.html" />
-    <link rel="alternate" hreflang="cat" href="index.cat.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/e3939c8b83.js" crossorigin="anonymous"></script>
-    <script>
-      const sentences = ["Bienvenue chez JMP Security.", "Nous sommes spécialisés dans les solutions de cybersécurité.", "Votre sécurité est notre priorité."];
-    </script>
+    <link rel="alternate" hreflang="ca" href="index.cat.html" />
   </head>
   <body>
-    <header>
-      <div class="logo-container">
-        <a href="mailto:hello@jmpsec.com">
-          <img src="/img/logo.png" alt="JMP Security <hello@jmpsec.com>" class="logo-jmp" />
-        </a>
-      </div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Accueil JMP Sec">
+        <img src="/img/logo_bg_dark.png" alt="" class="brand-logo" />
+        <span class="brand-name">JMP Sec</span>
+      </a>
+      <nav class="primary-nav" aria-label="Navigation principale">
+        <a href="#services">Services</a>
+        <a href="#projects">Projets</a>
+        <a href="#process">Processus</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <nav class="language-nav" aria-label="Langue">
+        <a href="index.en.html">🇬🇧 EN</a>
+        <a href="index.es.html">🇪🇸 ES</a>
+        <a aria-current="page" href="index.fr.html">🇫🇷 FR</a>
+        <a href="index.cat.html">🇦🇩 CA</a>
+      </nav>
+      <a class="header-cta" href="#contact">Demander une introduction</a>
     </header>
-    <div class="language-dropdown roboto">
-      <button class="dropdown-button">🌐 Langue</button>
-      <div class="dropdown-content">
-        <a href="index.en.html"><span>🇺🇸 EN</span></a>
-        <a href="index.es.html"><span>🇪🇸 ES</span></a>
-        <a href="index.fr.html"><span>🇫🇷 FR</span></a>
-        <a href="index.cat.html"><span>🇦🇩 CAT</span></a>
-      </div>
-    </div>
-    <div class="hero roboto">
-      <div class="hero-content">
-        <h1 id="typewriter"></h1>
-        <p>Des solutions innovantes pour vos besoins de cybersécurité.</p>
-        <a href="#services" class="cta-button lato">En Savoir Plus</a>
-      </div>
-    </div>
-    <section id="services" class="services lato">
-      <h2>Nos Services</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <i class="fa-solid fa-microchip"></i>
-          <h3>Développement Logiciel Sécurisé</h3>
-          <p>Construir des applications robustes et sécurisées.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-network-wired"></i>
-          <h3>Infrastructure Sécurisée</h3>
-          <p>Concevoir et maintenir des systèmes et des réseaux sécurisés.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-key"></i>
-          <h3>Ingénierie de la Sécurité</h3>
-          <p>Développer et mettre en œuvre des mesures de sécurité avancées pour protéger votre organisation.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-shield-halved"></i>
-          <h3>Sécurité des Enfants</h3>
-          <p>Fournir des conseils d'experts pour protéger les enfants en ligne et assurer leur sécurité numérique.</p>
-        </div>
-      </div>
-      <div class="service-card">
-        <i class="fa-regular fa-envelope"></i>
-        <h3>Contactez-Nous</h3>
-        <p>
-          Utilisez notre
-          <a href="https://forms.gle/ezGfkRgMfNsonfd19" target="_blank">formulaire</a>
-          ou envoyez-nous un
-          <a href="mailto:hello@jmpsec.com">e-mail.</a>
-        </p>
-      </div>
-    </section>
 
-    <footer class="footer lato">
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Ingénierie de sécurité depuis l'Andorre</p>
+          <h1 id="hero-title">Ingénierie de sécurité pour systèmes réels.</h1>
+          <p class="hero-lede">
+            AppSec, cloud, visibilité endpoint et réponse. Constats clairs. Correctifs livrables.
+          </p>
+          <div class="hero-actions" aria-label="Actions principales">
+            <a class="button button-primary" href="mailto:hello@jmpsec.com">Lancer une conversation technique</a>
+            <a class="button button-secondary" href="#services">Voir les services</a>
+          </div>
+          <ul class="signal-list" aria-label="Axes de sécurité">
+            <li>Sécurité applicative</li>
+            <li>Cloud et infrastructure</li>
+            <li>Ingénierie de détection</li>
+            <li>Préparation aux incidents</li>
+            <li>Sécurité en ligne des enfants</li>
+          </ul>
+        </div>
+
+        <aside class="proof-panel" aria-label="Preuves par projets publics">
+          <p class="panel-label">Projets publics <img class="panel-label-icon" src="https://cdn.simpleicons.org/github" alt="" loading="lazy" /></p>
+          <a class="project-chip" href="https://github.com/jmpsec/osctrl" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/osctrl/develop/logo.png" alt="" loading="lazy" />
+            <strong>osctrl</strong>
+            <span>osquery et visibilité endpoint.</span>
+          </a>
+          <a class="project-chip" href="https://github.com/jmpsec/mapctf" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/mapctf/develop/mapctf.png" alt="" loading="lazy" />
+            <strong>mapctf</strong>
+            <span>Cyber range et plateforme CTF.</span>
+          </a>
+          <a class="project-chip" href="https://github.com/jmpsec/stanza-c2" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/stanza-c2/main/stanza.png" alt="" loading="lazy" />
+            <strong>stanza-c2</strong>
+            <span>Recherche red team autorisée.</span>
+          </a>
+        </aside>
+      </section>
+
+      <section class="experience-strip" aria-labelledby="experience-title">
+        <div class="experience-panel">
+          <p class="eyebrow" id="experience-title">Expérience préalable dans des équipes de</p>
+          <div class="company-row" aria-label="Entreprises représentées par l'expérience préalable de membres de JMP Sec">
+            <span class="company-mark"><img class="company-logo-wordmark" src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="" loading="lazy" /><span>IBM</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/meta" alt="" loading="lazy" /><span>Meta</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/uber" alt="" loading="lazy" /><span>Uber</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/airbnb" alt="" loading="lazy" /><span>Airbnb</span></span>
+            <span class="company-mark"><img src="https://www.bitmex.com/_assets/default/favicon.ico" alt="" loading="lazy" /><span>BitMEX</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/chainlink" alt="" loading="lazy" /><span>Chainlink</span></span>
+            <span class="company-mark"><img src="https://api.iconify.design/simple-icons:niantic.svg?color=%23175ea8" alt="" loading="lazy" /><span>Niantic</span></span>
+            <span class="company-mark company-mark-word"><span class="company-monogram" aria-hidden="true">TC</span><span>Tech Coalition</span></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services-section" aria-labelledby="services-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2 id="services-title">Aide directe pour équipes techniques.</h2>
+            <p>Preuves d'abord. Correctifs pratiques. Pas de théâtre.</p>
+          </div>
+          <a class="section-cta" href="#contact">Parler de votre environnement</a>
+        </div>
+
+        <div class="card-grid services-grid">
+          <article class="service-card">
+            <h3>Sécurité Applicative et Produit</h3>
+            <p>Trouver le risque produit avant livraison.</p>
+            <ul>
+              <li>Modélisation des menaces</li>
+              <li>Code et API</li>
+              <li>Guidance de correction</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Sécurité Cloud et Infrastructure</h3>
+            <p>Durcir les systèmes derrière le produit.</p>
+            <ul>
+              <li>Revue cloud</li>
+              <li>Identité et secrets</li>
+              <li>Défauts sûrs</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Détection et Préparation aux Incidents</h3>
+            <p>Voir et traiter l'activité suspecte.</p>
+            <ul>
+              <li>osquery et osctrl</li>
+              <li>Qualité télémétrie</li>
+              <li>Flux de réponse</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Ingénierie de Sécurité</h3>
+            <p>Intégrer la sécurité au flux d'ingénierie.</p>
+            <ul>
+              <li>Outils internes</li>
+              <li>Contrôles CI/CD</li>
+              <li>Support plateforme</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Sécurité en Ligne des Enfants</h3>
+            <p>Guidance pratique pour le risque en ligne.</p>
+            <ul>
+              <li>Trust and safety</li>
+              <li>Revue de risque</li>
+              <li>Flux de protection</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Preuve technique</p>
+            <h2 id="projects-title">Travail public. Preuve pratique.</h2>
+            <p>Des services fondés sur des outils, pas des slides.</p>
+          </div>
+          <a class="section-cta" href="https://github.com/jmpsec" target="_blank" rel="noopener">Ouvrir l'organisation GitHub</a>
+        </div>
+
+        <div class="card-grid project-grid">
+          <article class="project-card">
+            <div>
+              <p class="project-type">Sécurité endpoint</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/osctrl/develop/logo.png" alt="" loading="lazy" /><h3>osctrl</h3></div>
+              <p>Gestion osquery pour visibilité, logs, configuration et requêtes live.</p>
+            </div>
+            <a href="https://github.com/jmpsec/osctrl" target="_blank" rel="noopener">Voir sur GitHub</a>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Cyber range</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/mapctf/develop/mapctf.png" alt="" loading="lazy" /><h3>mapctf</h3></div>
+              <p>Cyber range et CTF avec interface cartographique pour l'apprentissage.</p>
+            </div>
+            <a href="https://github.com/jmpsec/mapctf" target="_blank" rel="noopener">Voir sur GitHub</a>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Recherche autorisée</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/stanza-c2/main/stanza.png" alt="" loading="lazy" /><h3>stanza-c2</h3></div>
+              <p>Recherche red team autorisée pour comprendre les flux d'attaque.</p>
+            </div>
+            <a href="https://github.com/jmpsec/stanza-c2" target="_blank" rel="noopener">Voir sur GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="process" class="section process-section" aria-labelledby="process-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Processus</p>
+            <h2 id="process-title">Travail clair. Constats utiles. Correctifs vérifiés.</h2>
+          </div>
+          <a class="section-cta" href="#contact">Lancer un cadrage technique</a>
+        </div>
+        <ol class="process-list">
+          <li><strong>Cadrer</strong><span>Définir systèmes, risques et objectifs.</span></li>
+          <li><strong>Évaluer</strong><span>Tester avec preuves reproductibles.</span></li>
+          <li><strong>Expliquer</strong><span>Prioriser l'impact technique.</span></li>
+          <li><strong>Remédier</strong><span>Corriger code, config ou flux.</span></li>
+          <li><strong>Valider</strong><span>Retester l'essentiel.</span></li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Apportez un système. Repartez avec un plan.</h2>
+            <p>Envoyez la stack, le risque et l'échéance. Nous partons de là.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:hello@jmpsec.com">Email hello@jmpsec.com</a>
+            <a class="button button-secondary" href="https://forms.gle/ezGfkRgMfNsonfd19" target="_blank" rel="noopener">Utiliser le formulaire</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
       <p>
-        ©
-        <span id="current-year"></span>
-        JMP Security. Tous droits réservés. Depuis l'Andorre avec ❤️
+        © <span id="current-year">2026</span> JMP Sec. Tous droits réservés. Depuis l'Andorre.
       </p>
     </footer>
     <script src="scripts.js"></script>
-    <script>
-      document.getElementById("current-year").textContent = new Date().getFullYear();
-    </script>
   </body>
 </html>

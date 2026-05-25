@@ -14,7 +14,11 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JMP Security</title>
+    <meta
+      name="description"
+      content="JMP Sec provides security engineering, application security, cloud and infrastructure security, incident readiness, and child online safety services for technical teams."
+    />
+    <title>JMP Sec | Security Engineering Services</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="/img/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
@@ -24,85 +28,220 @@
     <link rel="alternate" hreflang="en" href="index.en.html" />
     <link rel="alternate" hreflang="es" href="index.es.html" />
     <link rel="alternate" hreflang="fr" href="index.fr.html" />
-    <link rel="alternate" hreflang="cat" href="index.cat.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/e3939c8b83.js" crossorigin="anonymous"></script>
-    <script>
-      const sentences = ["Welcome to JMP Security.", "We specialize in cybersecurity solutions.", "Your safety is our priority."];
-    </script>
+    <link rel="alternate" hreflang="ca" href="index.cat.html" />
   </head>
   <body>
-    <header>
-      <div class="logo-container">
-        <a href="mailto:hello@jmpsec.com">
-          <img src="/img/logo.png" alt="JMP Security <hello@jmpsec.com>" class="logo-jmp" />
-        </a>
-      </div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="JMP Sec home">
+        <img src="/img/logo_bg_dark.png" alt="" class="brand-logo" />
+        <span class="brand-name">JMP Sec</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <nav class="language-nav" aria-label="Language">
+        <a aria-current="page" href="index.en.html">🇬🇧 EN</a>
+        <a href="index.es.html">🇪🇸 ES</a>
+        <a href="index.fr.html">🇫🇷 FR</a>
+        <a href="index.cat.html">🇦🇩 CA</a>
+      </nav>
+      <a class="header-cta" href="#contact">Request introduction</a>
     </header>
-    <div class="language-dropdown roboto">
-      <button class="dropdown-button">🌐 Language</button>
-      <div class="dropdown-content">
-        <a href="index.en.html"><span>🇺🇸 EN</span></a>
-        <a href="index.es.html"><span>🇪🇸 ES</span></a>
-        <a href="index.fr.html"><span>🇫🇷 FR</span></a>
-        <a href="index.cat.html"><span>🇦🇩 CAT</span></a>
-      </div>
-    </div>
-    <div class="hero roboto">
-      <div class="hero-content">
-        <h1 id="typewriter"></h1>
-        <p>Innovative solutions for your cybersecurity needs.</p>
-        <a href="#services" class="cta-button lato">Learn More</a>
-      </div>
-    </div>
-    <section id="services" class="services lato">
-      <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <i class="fa-solid fa-microchip"></i>
-          <h3>Secure Software Development</h3>
-          <p>Build robust and secure applications from the ground up.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-network-wired"></i>
-          <h3>Secure Infrastructure</h3>
-          <p>Design and maintain secure systems and networks.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-key"></i>
-          <h3>Security Engineering</h3>
-          <p>Develop and implement advanced security measures to safeguard your organization.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-shield-halved"></i>
-          <h3>Child Safety</h3>
-          <p>Provide expert guidance to protect children online and ensure digital safety.</p>
-        </div>
-      </div>
-      <div class="service-card">
-        <i class="fa-regular fa-envelope"></i>
-        <h3>Contact Us</h3>
-        <p>
-          Use our
-          <a href="https://forms.gle/xoBrrUKAEaaJPSWb9" target="_blank">form</a>
-          or drop us an
-          <a href="mailto:hello@jmpsec.com">email.</a>
-        </p>
-      </div>
-    </section>
 
-    <footer class="footer lato">
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Security engineering from Andorra</p>
+          <h1 id="hero-title">Security engineering for real systems.</h1>
+          <p class="hero-lede">
+            AppSec, cloud, endpoint visibility, and incident readiness. Practical findings. Fixes your team can ship.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="mailto:hello@jmpsec.com">Start a technical conversation</a>
+            <a class="button button-secondary" href="#services">View services</a>
+          </div>
+          <ul class="signal-list" aria-label="Security focus areas">
+            <li>Application security</li>
+            <li>Cloud and infrastructure</li>
+            <li>Detection engineering</li>
+            <li>Incident readiness</li>
+            <li>Child online safety</li>
+          </ul>
+        </div>
+
+        <aside class="proof-panel" aria-label="Public project proof">
+          <p class="panel-label">Public projects <img class="panel-label-icon" src="https://cdn.simpleicons.org/github" alt="" loading="lazy" /></p>
+          <a class="project-chip" href="https://github.com/jmpsec/osctrl" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/osctrl/develop/logo.png" alt="" loading="lazy" />
+            <strong>osctrl</strong>
+              <span>osquery control and endpoint visibility.</span>
+          </a>
+          <a class="project-chip" href="https://github.com/jmpsec/mapctf" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/mapctf/develop/mapctf.png" alt="" loading="lazy" />
+            <strong>mapctf</strong>
+              <span>Cyber range and CTF platform engineering.</span>
+          </a>
+          <a class="project-chip" href="https://github.com/jmpsec/stanza-c2" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/stanza-c2/main/stanza.png" alt="" loading="lazy" />
+            <strong>stanza-c2</strong>
+              <span>Authorized red-team tooling research.</span>
+          </a>
+        </aside>
+      </section>
+
+      <section class="experience-strip" aria-labelledby="experience-title">
+        <div class="experience-panel">
+          <p class="eyebrow" id="experience-title">Prior experience from teams at</p>
+          <div class="company-row" aria-label="Companies represented by prior JMP Sec member experience">
+            <span class="company-mark"><img class="company-logo-wordmark" src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="" loading="lazy" /><span>IBM</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/meta" alt="" loading="lazy" /><span>Meta</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/uber" alt="" loading="lazy" /><span>Uber</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/airbnb" alt="" loading="lazy" /><span>Airbnb</span></span>
+            <span class="company-mark"><img src="https://www.bitmex.com/_assets/default/favicon.ico" alt="" loading="lazy" /><span>BitMEX</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/chainlink" alt="" loading="lazy" /><span>Chainlink</span></span>
+            <span class="company-mark"><img src="https://api.iconify.design/simple-icons:niantic.svg?color=%23175ea8" alt="" loading="lazy" /><span>Niantic</span></span>
+            <span class="company-mark company-mark-word"><span class="company-monogram" aria-hidden="true">TC</span><span>Tech Coalition</span></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services-section" aria-labelledby="services-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2 id="services-title">Focused help for technical teams.</h2>
+            <p>Evidence first. Practical fixes. No theater.</p>
+          </div>
+          <a class="section-cta" href="#contact">Discuss your environment</a>
+        </div>
+
+        <div class="card-grid services-grid">
+          <article class="service-card">
+            <h3>Application and Product Security</h3>
+            <p>Find product risk before it ships.</p>
+            <ul>
+              <li>Threat modeling</li>
+              <li>Code and API review</li>
+              <li>Fix guidance</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Cloud and Infrastructure Security</h3>
+            <p>Harden the systems behind the product.</p>
+            <ul>
+              <li>Cloud review</li>
+              <li>Identity and secrets</li>
+              <li>Secure defaults</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Detection and Incident Readiness</h3>
+            <p>Make suspicious activity easier to see and handle.</p>
+            <ul>
+              <li>osquery and osctrl</li>
+              <li>Telemetry quality</li>
+              <li>Response workflows</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Security Engineering</h3>
+            <p>Build security into engineering flow.</p>
+            <ul>
+              <li>Internal tooling</li>
+              <li>CI/CD guardrails</li>
+              <li>Platform support</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Child Online Safety</h3>
+            <p>Practical safety guidance for online risk.</p>
+            <ul>
+              <li>Trust and safety</li>
+              <li>Risk review</li>
+              <li>Safeguarding flows</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Project proof</p>
+            <h2 id="projects-title">Public work. Practical proof.</h2>
+            <p>Security services grounded in tooling, not slideware.</p>
+          </div>
+          <a class="section-cta" href="https://github.com/jmpsec" target="_blank" rel="noopener">Open GitHub organization</a>
+        </div>
+
+        <div class="card-grid project-grid">
+          <article class="project-card">
+            <div>
+              <p class="project-type">Endpoint security</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/osctrl/develop/logo.png" alt="" loading="lazy" /><h3>osctrl</h3></div>
+              <p>osquery management for fleet visibility, logs, config, and live queries.</p>
+            </div>
+            <a href="https://github.com/jmpsec/osctrl" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Cyber range</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/mapctf/develop/mapctf.png" alt="" loading="lazy" /><h3>mapctf</h3></div>
+              <p>A map-based cyber range and CTF platform for hands-on security learning.</p>
+            </div>
+            <a href="https://github.com/jmpsec/mapctf" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Authorized research</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/stanza-c2/main/stanza.png" alt="" loading="lazy" /><h3>stanza-c2</h3></div>
+              <p>Authorized red-team research for understanding attacker workflows.</p>
+            </div>
+            <a href="https://github.com/jmpsec/stanza-c2" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="process" class="section process-section" aria-labelledby="process-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Process</p>
+            <h2 id="process-title">Clear work. Useful findings. Verified fixes.</h2>
+          </div>
+          <a class="section-cta" href="#contact">Start a scoped engagement</a>
+        </div>
+        <ol class="process-list">
+          <li><strong>Scope</strong><span>Define systems, risks, and goals.</span></li>
+          <li><strong>Assess</strong><span>Test with reproducible evidence.</span></li>
+          <li><strong>Explain</strong><span>Prioritize engineering impact.</span></li>
+          <li><strong>Remediate</strong><span>Fix code, config, or workflow.</span></li>
+          <li><strong>Validate</strong><span>Retest what matters.</span></li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Bring a system. Leave with a plan.</h2>
+            <p>Send the stack, the risk, and the timeline. We will start from there.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:hello@jmpsec.com">Email hello@jmpsec.com</a>
+            <a class="button button-secondary" href="https://forms.gle/xoBrrUKAEaaJPSWb9" target="_blank" rel="noopener">Use the contact form</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
       <p>
-        ©
-        <span id="current-year"></span>
-        JMP Security. All rights reserved. From Andorra with ❤️
+        © <span id="current-year">2026</span> JMP Sec. All rights reserved. From Andorra.
       </p>
     </footer>
     <script src="scripts.js"></script>
-    <script>
-      document.getElementById("current-year").textContent = new Date().getFullYear();
-    </script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="ca">
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VSPETTYGCV"></script>
@@ -14,7 +14,11 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JMP Security</title>
+    <meta
+      name="description"
+      content="JMP Sec ofereix enginyeria de seguretat, seguretat d'aplicacions, seguretat cloud i infraestructura, preparació davant incidents i seguretat online de menors per a equips tècnics."
+    />
+    <title>JMP Sec | Serveis d'Enginyeria de Seguretat</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="/img/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
@@ -24,85 +28,220 @@
     <link rel="alternate" hreflang="en" href="index.en.html" />
     <link rel="alternate" hreflang="es" href="index.es.html" />
     <link rel="alternate" hreflang="fr" href="index.fr.html" />
-    <link rel="alternate" hreflang="cat" href="index.cat.html" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/e3939c8b83.js" crossorigin="anonymous"></script>
-    <script>
-      const sentences = ["Benvinguts a JMP Security.", "Estem especialitzats en solucions de ciberseguretat.", "La seva seguretat és la nostra prioritat."];
-    </script>
+    <link rel="alternate" hreflang="ca" href="index.cat.html" />
   </head>
   <body>
-    <header>
-      <div class="logo-container">
-        <a href="mailto:hello@jmpsec.com">
-          <img src="/img/logo.png" alt="JMP Security <hello@jmpsec.com>" class="logo-jmp" />
-        </a>
-      </div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Inici de JMP Sec">
+        <img src="/img/logo_bg_dark.png" alt="" class="brand-logo" />
+        <span class="brand-name">JMP Sec</span>
+      </a>
+      <nav class="primary-nav" aria-label="Navegació principal">
+        <a href="#services">Serveis</a>
+        <a href="#projects">Projectes</a>
+        <a href="#process">Procés</a>
+        <a href="#contact">Contacte</a>
+      </nav>
+      <nav class="language-nav" aria-label="Idioma">
+        <a href="index.en.html">🇬🇧 EN</a>
+        <a href="index.es.html">🇪🇸 ES</a>
+        <a href="index.fr.html">🇫🇷 FR</a>
+        <a aria-current="page" href="index.cat.html">🇦🇩 CA</a>
+      </nav>
+      <a class="header-cta" href="#contact">Demanar introducció</a>
     </header>
-    <div class="language-dropdown roboto">
-      <button class="dropdown-button">🌐 Idioma</button>
-      <div class="dropdown-content">
-        <a href="index.en.html"><span>🇺🇸 EN</span></a>
-        <a href="index.es.html"><span>🇪🇸 ES</span></a>
-        <a href="index.fr.html"><span>🇫🇷 FR</span></a>
-        <a href="index.cat.html"><span>🇦🇩 CAT</span></a>
-      </div>
-    </div>
-    <div class="hero roboto">
-      <div class="hero-content">
-        <h1 id="typewriter"></h1>
-        <p>Solucions innovadores per a les seves necessitats de ciberseguretat.</p>
-        <a href="#services" class="cta-button lato">Veure Més</a>
-      </div>
-    </div>
-    <section id="services" class="services lato">
-      <h2>Els Nostres Serveis</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <i class="fa-solid fa-microchip"></i>
-          <h3>Desenvolupament Segur de Software</h3>
-          <p>Construeixi aplicacions robustes i segures des de zero.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-network-wired"></i>
-          <h3>Infraestructura Segura</h3>
-          <p>Disseny i manteniment de sistemes i xarxes segures.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-key"></i>
-          <h3>Enginyeria de Seguretat</h3>
-          <p>Desenvolupament i implementació de mesures de seguretat avançades per protegir la seva organització.</p>
-        </div>
-        <div class="service-card">
-          <i class="fa-solid fa-shield-halved"></i>
-          <h3>Seguretat de Menors a les Xarxes</h3>
-          <p>Proporcionem orientació experta per protegir els infants en línia i garantir la seguretat digital.</p>
-        </div>
-      </div>
-      <div class="service-card">
-        <i class="fa-regular fa-envelope"></i>
-        <h3>Contacti amb Nosaltres</h3>
-        <p>
-          Utilitzi el nostre
-          <a href="https://forms.gle/w5nomdAMnaNRUK4s9" target="_blank">formulari</a>
-          o envieu-nos un
-          <a href="mailto:hello@jmpsec.com">correu electrònic.</a>
-        </p>
-      </div>
-    </section>
 
-    <footer class="footer lato">
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Enginyeria de seguretat des d'Andorra</p>
+          <h1 id="hero-title">Enginyeria de seguretat per a sistemes reals.</h1>
+          <p class="hero-lede">
+            AppSec, cloud, visibilitat endpoint i resposta. Troballes clares. Correccions desplegables.
+          </p>
+          <div class="hero-actions" aria-label="Accions principals">
+            <a class="button button-primary" href="mailto:hello@jmpsec.com">Iniciar una conversa tècnica</a>
+            <a class="button button-secondary" href="#services">Veure serveis</a>
+          </div>
+          <ul class="signal-list" aria-label="Àrees de seguretat">
+            <li>Seguretat d'aplicacions</li>
+            <li>Cloud i infraestructura</li>
+            <li>Enginyeria de detecció</li>
+            <li>Preparació davant incidents</li>
+            <li>Seguretat online de menors</li>
+          </ul>
+        </div>
+
+        <aside class="proof-panel" aria-label="Projectes públics">
+          <p class="panel-label">Projectes públics <img class="panel-label-icon" src="https://cdn.simpleicons.org/github" alt="" loading="lazy" /></p>
+          <a class="project-chip" href="https://github.com/jmpsec/osctrl" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/osctrl/develop/logo.png" alt="" loading="lazy" />
+            <strong>osctrl</strong>
+            <span>osquery i visibilitat endpoint.</span>
+          </a>
+          <a class="project-chip" href="https://github.com/jmpsec/mapctf" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/mapctf/develop/mapctf.png" alt="" loading="lazy" />
+            <strong>mapctf</strong>
+            <span>Cyber range i plataforma CTF.</span>
+          </a>
+          <a class="project-chip" href="https://github.com/jmpsec/stanza-c2" target="_blank" rel="noopener">
+            <img class="project-logo" src="https://raw.githubusercontent.com/jmpsec/stanza-c2/main/stanza.png" alt="" loading="lazy" />
+            <strong>stanza-c2</strong>
+            <span>Recerca red team autoritzada.</span>
+          </a>
+        </aside>
+      </section>
+
+      <section class="experience-strip" aria-labelledby="experience-title">
+        <div class="experience-panel">
+          <p class="eyebrow" id="experience-title">Experiència prèvia en equips de</p>
+          <div class="company-row" aria-label="Empreses representades per experiència prèvia de membres de JMP Sec">
+            <span class="company-mark"><img class="company-logo-wordmark" src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="" loading="lazy" /><span>IBM</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/meta" alt="" loading="lazy" /><span>Meta</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/uber" alt="" loading="lazy" /><span>Uber</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/airbnb" alt="" loading="lazy" /><span>Airbnb</span></span>
+            <span class="company-mark"><img src="https://www.bitmex.com/_assets/default/favicon.ico" alt="" loading="lazy" /><span>BitMEX</span></span>
+            <span class="company-mark"><img src="https://cdn.simpleicons.org/chainlink" alt="" loading="lazy" /><span>Chainlink</span></span>
+            <span class="company-mark"><img src="https://api.iconify.design/simple-icons:niantic.svg?color=%23175ea8" alt="" loading="lazy" /><span>Niantic</span></span>
+            <span class="company-mark company-mark-word"><span class="company-monogram" aria-hidden="true">TC</span><span>Tech Coalition</span></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services-section" aria-labelledby="services-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Serveis</p>
+            <h2 id="services-title">Ajuda directa per a equips tècnics.</h2>
+            <p>Evidència primer. Correccions pràctiques. Sense teatre.</p>
+          </div>
+          <a class="section-cta" href="#contact">Parlar de l'entorn</a>
+        </div>
+
+        <div class="card-grid services-grid">
+          <article class="service-card">
+            <h3>Seguretat d'Aplicacions i Producte</h3>
+            <p>Detectar risc de producte abans de desplegar.</p>
+            <ul>
+              <li>Modelatge d'amenaces</li>
+              <li>Codi i APIs</li>
+              <li>Guia de remediació</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Seguretat Cloud i Infraestructura</h3>
+            <p>Endurir els sistemes darrere del producte.</p>
+            <ul>
+              <li>Revisió cloud</li>
+              <li>Identitat i secrets</li>
+              <li>Valors segurs</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Detecció i Preparació davant Incidents</h3>
+            <p>Veure i gestionar activitat sospitosa.</p>
+            <ul>
+              <li>osquery i osctrl</li>
+              <li>Qualitat de telemetria</li>
+              <li>Fluxos de resposta</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Enginyeria de Seguretat</h3>
+            <p>Integrar seguretat al flux d'enginyeria.</p>
+            <ul>
+              <li>Eines internes</li>
+              <li>Controls CI/CD</li>
+              <li>Suport de plataforma</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Seguretat Online de Menors</h3>
+            <p>Guia pràctica per al risc online.</p>
+            <ul>
+              <li>Trust and safety</li>
+              <li>Revisió de risc</li>
+              <li>Fluxos de protecció</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Prova tècnica</p>
+            <h2 id="projects-title">Treball públic. Prova pràctica.</h2>
+            <p>Serveis basats en eines, no en presentacions.</p>
+          </div>
+          <a class="section-cta" href="https://github.com/jmpsec" target="_blank" rel="noopener">Obrir organització GitHub</a>
+        </div>
+
+        <div class="card-grid project-grid">
+          <article class="project-card">
+            <div>
+              <p class="project-type">Seguretat endpoint</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/osctrl/develop/logo.png" alt="" loading="lazy" /><h3>osctrl</h3></div>
+              <p>Gestió osquery per a visibilitat, logs, configuració i consultes en viu.</p>
+            </div>
+            <a href="https://github.com/jmpsec/osctrl" target="_blank" rel="noopener">Veure a GitHub</a>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Cyber range</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/mapctf/develop/mapctf.png" alt="" loading="lazy" /><h3>mapctf</h3></div>
+              <p>Cyber range i CTF amb interfície de mapa per a aprenentatge pràctic.</p>
+            </div>
+            <a href="https://github.com/jmpsec/mapctf" target="_blank" rel="noopener">Veure a GitHub</a>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Recerca autoritzada</p>
+              <div class="project-card-title"><img class="project-card-logo" src="https://raw.githubusercontent.com/jmpsec/stanza-c2/main/stanza.png" alt="" loading="lazy" /><h3>stanza-c2</h3></div>
+              <p>Recerca red team autoritzada per entendre fluxos d'atac.</p>
+            </div>
+            <a href="https://github.com/jmpsec/stanza-c2" target="_blank" rel="noopener">Veure a GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="process" class="section process-section" aria-labelledby="process-title">
+        <div class="section-head-row">
+          <div class="section-heading">
+            <p class="eyebrow">Procés</p>
+            <h2 id="process-title">Treball clar. Troballes útils. Correccions verificades.</h2>
+          </div>
+          <a class="section-cta" href="#contact">Començar un abast tècnic</a>
+        </div>
+        <ol class="process-list">
+          <li><strong>Acotar</strong><span>Definir sistemes, riscos i objectius.</span></li>
+          <li><strong>Avaluar</strong><span>Provar amb evidència reproduïble.</span></li>
+          <li><strong>Explicar</strong><span>Prioritzar impacte tècnic.</span></li>
+          <li><strong>Remediar</strong><span>Corregir codi, config o flux.</span></li>
+          <li><strong>Validar</strong><span>Tornar a provar l'essencial.</span></li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">Contacte</p>
+            <h2 id="contact-title">Porteu un sistema. Sortiu amb un pla.</h2>
+            <p>Envieu-nos el stack, el risc i el termini. Comencem des d'aquí.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:hello@jmpsec.com">Email hello@jmpsec.com</a>
+            <a class="button button-secondary" href="https://forms.gle/w5nomdAMnaNRUK4s9" target="_blank" rel="noopener">Usar el formulari</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
       <p>
-        ©
-        <span id="current-year"></span>
-        JMP Security. Tots els drets reservats. Des d'Andorra amb ❤️
+        © <span id="current-year">2026</span> JMP Sec. Tots els drets reservats. Des d'Andorra.
       </p>
     </footer>
     <script src="scripts.js"></script>
-    <script>
-      document.getElementById("current-year").textContent = new Date().getFullYear();
-    </script>
   </body>
 </html>

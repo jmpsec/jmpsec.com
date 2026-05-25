@@ -8,3 +8,7 @@
 # IDE metadata
 .vscode
 .idea
+
+# Local Superpowers planning and visual-companion artifacts
+.superpowers/
+docs/superpowers/
